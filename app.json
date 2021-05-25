@@ -1,0 +1,29 @@
+{
+    "name": "Spotify Downloader Bot",
+    "description": "A Simple Telegram Bot for Downloading Spotify Music",
+    "logo": "",
+    "keywords": [
+        "telegram",
+        "telethon",
+        "telegram-bot",
+        "spotify"
+    ],
+    "repository": "https://github.com/luciferhunmain/spotify_download_bot",
+    "website": "",
+    "success_url": "",
+    "env": {
+        "APP_NAME": {
+            "description": "Same Name as You have written on Heroku App Name",
+            "value": ""
+        },
+        "BOT_TOKEN": {
+            "description": "Bot token, get it from @BotFather.",
+            "value": ""
+        }
+    },
+    "buildpacks": [
+        {
+            "url": "heroku/python"
+        }
+    ]
+}
