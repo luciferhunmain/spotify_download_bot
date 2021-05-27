@@ -27,7 +27,7 @@ def error(update: Update, context: CallbackContext, error):
 
 
 def main():
-    TOKEN = os.environ.get('BOT_TOKEN')
+    TOKEN = os.environ.get('TOKEN')
     APP_NAME = os.environ.get('APP_NAME')
 
     # Port is given by Heroku
